@@ -1,0 +1,164 @@
+/* Codigo CSS das Fontes*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+h1{
+  padding-top: 90px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  font-size: 50px;
+  text-align: center;
+}
+
+.navbar-fixed nav{
+    background: rgba(200, 44, 48, 0.6) !important;
+    height: 90px !important;
+}
+.navbar-fixed nav ul li a{
+    height: 90px !important;
+    padding-top: 12px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+.navbar-fixed nav ul li a:hover{
+    background: rgba(255, 255, 255, 0.6) !important;
+    color: #C82C30;
+}
+
+
+.page-footer{
+  background: #C82C30;
+}
+.footer-copyright{
+  background: #772C30;
+}
+.parallax-container {
+      height: auto;
+}
+.carousel{
+  height: 100%;
+}
+.carousel-item{
+  padding-top: 70px;
+}
+.carousel-slider{
+  margin-top: -64px;
+  min-height: 650px;
+}
+
+.bg-slide-seminfo-1{
+  background: url('../img/Fundo-II-SEMINFO.jpg') center no-repeat;
+}
+.bg-slide-seminfo-2{
+  background: url('../img/Fundo-II-SEMINFO.jpg') top center  no-repeat;
+}
+.logo-seminfo{
+  padding-top: 30px;
+  width: 300px !important;
+}
+
+.margin-zero{
+  margin: 0px !important;
+}
+.menu{
+  z-index: 5000;
+}
+.collapsible-header{
+  font-size: 120%;
+}
+
+.brand-logo div img{
+    padding-top: 5px;
+    height: 85px;
+    padding-left: 5px;
+}
+/* .loading {
+    background: url('../img/ico_loading.gif') no-repeat center center;
+} */
+
+section, header {
+    opacity: 0;
+    -webkit-transition:opacity .6s;
+    -moz-transition:opacity .6s;
+    -o-transition:opacity .6s;
+    transition: opacity .6s;
+}
+.loaded section,  .loaded header, .loader footer{
+    opacity: 1;
+}
+.preloader-wrapper{
+  margin-top: 25%;
+  margin-left: 49%;
+}
+.loaded .preloader-wrapper{
+  display: none;
+}
+.inscricao{
+  padding: 30px;
+  width 
+}
+
+/* .fb-page.fb_iframe_widget{
+  width: 100% !important;
+} */
+.card-content{
+  padding: 12px !important;
+}
+.card.medium{
+  height: 450px;
+}
+.card-action{
+  padding: 5px 16px 5px 26px !important;
+  text-align: center;
+  width: 100%;
+  cursor: pointer
+}
+.card-action a{
+  color: #C82C30 !important ;
+}
+.parceiros{
+  height: 60px;
+  padding: 5px;
+}
+@media only screen and (min-width: 993px) {
+    .container {
+        width: 80% !important;
+    }
+    #nav-mobile{
+      padding-right: 15px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .brand-logo div img{
+        padding-top: 15px;
+        height: 70px;
+        padding-left: 0px;
+    }
+    #logo img{
+      height: 80px;
+    }
+    #inicio{
+      z-index: -1;
+    }
+    h1{
+        font-size: 40px;
+    }
+}
+
