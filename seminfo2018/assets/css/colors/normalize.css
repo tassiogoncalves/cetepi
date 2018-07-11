@@ -7,3 +7,7 @@
 #contact-map{
 	background: #f3f4f3;
 }
+
+#iframe-inscricao{
+	height: 100vh !important;
+}
